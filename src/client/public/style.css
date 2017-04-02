@@ -1,0 +1,33 @@
+.card img {
+    height: 200px;
+    width: 150px;
+}
+.cardBack img{
+    position: absolute;
+}
+.cardBack, .cardFront{
+    width: 100%;
+    height: 100%;
+}
+.cardBack{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.card .cardFront img {
+    width: 100%;
+    height: 100%;
+}
+.card .cardBack img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.card{
+    width: 150px;
+    height: 200px;
+    display: inline-block;
+    margin: 0px 8px 27px;
+    position:relative;
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75)
+}

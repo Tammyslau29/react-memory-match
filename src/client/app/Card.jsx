@@ -20,9 +20,9 @@ class Card extends React.Component {
             display: this.state.cardClicked ? "none" : "inline-block"
         }
         return (
-            <div>
-                <div style={cardDisplay} className="cardFront"><img src={this.props.cardFront}/></div>
-                <div onClick={this.handleClick} className="cardBack"><img src={this.props.cardBack}/></div>
+            <div className="card">
+                <div className="cardFront"><img src={this.props.cardFront}/></div>
+                <div style={cardDisplay} onClick={this.handleClick} className="cardBack"><img src={this.props.cardBack}/></div>
             </div>
         );
     }
