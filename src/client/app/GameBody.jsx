@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
-import CardContainer from './CardContainer';
-import Stats from './Stats';
+import CardContainer from './CardContainer.jsx';
+import Stats from './Stats.jsx';
 
 class GameBody extends React.Component {
     constructor(props) {

@@ -21,8 +21,8 @@ class Card extends React.Component {
         }
         return (
             <div>
-                <div style={cardDisplay} className="cardFront">{this.props.cardFront}</div>
-                <div onClick={this.handleClick} className="cardBack">{this.props.cardBack}</div>
+                <div style={cardDisplay} className="cardFront"><img src={this.props.cardFront}/></div>
+                <div onClick={this.handleClick} className="cardBack"><img src={this.props.cardBack}/></div>
             </div>
         );
     }
